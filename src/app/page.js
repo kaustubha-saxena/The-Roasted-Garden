@@ -2,6 +2,7 @@ import Hero from "./components/hero";
 import Navbar from "./components/Navbar";
 import OurSpeciality from "./components/OurSpeciality";
 import Reviews from "./components/Reviews";
+import About from "./components/about";
 export default function Home() {
   return (
    
@@ -10,6 +11,7 @@ export default function Home() {
    <Hero/>
    <OurSpeciality/>
    <Reviews/>
+   <About/>
    {/* <Footer/> */}
    <div className="h-[1000px] w-full bg-[]"></div>
   

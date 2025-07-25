@@ -4,7 +4,7 @@ const SpeacialCard = () => {
   return (
     <>
     <div className='w-[300px] h-fit overflow-hidden'>
-        <img className='w-[300px] h-[300px] rounded-xl object-center' src="/ProductImages/SignatureLattes.png" alt="" />
+        <img className='min-w-[300px] h-[300px] rounded-xl object-center' src="/ProductImages/SignatureLattes.png" alt="" />
         <div className='mt-3 px-3'>
 
         <h6 className='font-semibold'>Signature Lattes</h6>
