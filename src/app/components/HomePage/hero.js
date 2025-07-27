@@ -7,7 +7,8 @@ const Hero = () => {
   return (
 
     <>
-     
+     <div className='relative w-full h-fit'>
+
 
       <div className='relative bg-[#1b1108] w-full h-[90vh] text-white overflow-hidden '>
         <div className='flex flex-col justify-center items-center w-[50%] h-[100%] gap-5  px-20   '>
@@ -41,7 +42,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: "-20px" }}
             transition={{ duration: 1,delay: 0.5 }}
             className='w-full h-fit  '
-          >
+            >
 
           <div className='flex justify-center items-center gap-3 text-black mt-5 font-bold '>
             <Link href="/menu">
@@ -56,8 +57,12 @@ const Hero = () => {
         
 
       </div>
-      <div className='absolute  max-h-[90%] w-[35%]  top-10 right-[-27px] opacity-20 text-[#afa18e]   overflow-hidden'>
-      {/* <motion.div
+      <div className=' absolute top-0 w-full h-[100vh] overflow-hidden '>
+
+      <div className='absolute  h-fit w-[35%]  top-0 right-[-27px] opacity-20 text-[#afa18e]   z-10'>
+        
+
+      <motion.div
   initial={{ opacity: 0,  x: "120px" }}
   animate={{ opacity: 1,  x: "0px" }}
   transition={{ ease: "easeOut", duration: 1, delay: 0.5 }}
@@ -68,12 +73,15 @@ const Hero = () => {
           <p className='text-9xl font-bold text-shadow-[#4e3e28] text-shadow-lg'>Macchiato</p>
           <p className='text-9xl font-bold text-shadow-[#4e3e28] text-shadow-lg'>Mocha</p>
 
-      </motion.div> */}
+      </motion.div>
+ 
         </div>
+  </div>
 
 
 
 
+  </div>
 
     </>
   )

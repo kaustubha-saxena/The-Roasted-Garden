@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Footer = () => {
   return (
     <>
-      <div className='w-full h-80 bg-[#dc9b63] relative text-black bottom-0'>
+      <div className='w-full h-80 bg-[#c38854] relative text-black bottom-0'>
         <div className='flex justify-start items-start px-20 py-10'>
           <div className='w-[50%] flex flex-col justify-start gap-5'>
             <h3 className='text-3xl font-bold'>The Roasted Garden</h3>
