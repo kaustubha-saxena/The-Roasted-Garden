@@ -7,20 +7,18 @@ import { motion } from "motion/react"
 const Menu = () => {
   return (
    <>
-<div className='w-full h-120  bg-[#543b35] object-none  overflow-hidden relative'>
-  <img src="/menuHero.jpg" alt="" />
-  <div className='absolute top-0 w-full h-full flex justify-center items-center flex-col text-3xl font-bold'>
-    <p>Welcome</p>
-    <h3>We serve the richest coffee in the city!</h3>
+<div className='w-full h-120 px-20  bg-[#1b1108] object-none  flex justify-center items-center  overflow-hidden relative'>
+  <img className='w-full' src="/menuHero.jpg" alt="" />
+  <div className='absolute top-0 right-20   w-[40%]  h-full flex justify-center items-start gap-3  flex-col  font-bold text-white '>
+    <p className='text-2xl'>Welcome</p>
+    <h3 className='text-4xl'>We serve the richest coffee in the city!</h3>
   </div>
   <div className=' absolute top-0 w-full h-full bg-black opacity-30'></div>
 </div>
 
-<div className='w-full h-30  bg-[#1b1108] flex justify-center items-center'>
-  <img src="" alt="" />
-</div>
 
-   <div className='w-full h-fit  px-20 bg-[#1b1108]'>
+
+   <div className='w-full h-fit  px-20 bg-[#1b1108] py-15'>
 
 <div className='h-fit w-[100%]  bg-[#ebd3ac] py-10'>
 

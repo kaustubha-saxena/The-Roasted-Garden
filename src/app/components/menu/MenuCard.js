@@ -11,7 +11,7 @@ const MenuCard = () => {
         <p className='text-sm text-[#494949]'>Experience our unique latte art and flavor combinations.</p>
         <div className='w-full  flex justify-between items-center ' >
           <div><p className='font-bold text-lg text-[#543b35] '>₹ 200</p></div>
-          <button className='text-sm py-1 rounded-sm font-medium px-2  bg-[#543b35] text-white '>Add to cart</button>
+          <button className='text-sm py-1 rounded-sm font-medium px-2  bg-[#543b35] hover:bg-[#1b1108] text-white '>Add to cart</button>
           </div>
         </div>
     </div>

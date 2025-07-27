@@ -19,7 +19,7 @@ const ColdBeverages = () => {
 
           <h3 className='text-2xl font-bold text-[#4e3e28]'>COLD BEVERAGES</h3>
         </div>
-        <div className='flex justify-center items-center gap-3  py-3'>
+        <div className='flex justify-center items-center gap-6  py-3'>
 
           <MenuCard />
           <MenuCard />
