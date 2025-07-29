@@ -40,7 +40,7 @@ const ImageLoader = () => {
               transition={{ duration: 0.5, ease: "easeOut" }}
             >
 
-        <img className=' shadow-2xl hover:drop-shadow-2xl hover:scale-101 transition-shadow max-w-[100%] mb-3 rounded-xl object-cover ' src={item} alt="" />
+        <img key={index} className=' shadow-2xl hover:drop-shadow-2xl hover:scale-101 transition-shadow max-w-[100%] mb-3 rounded-xl object-cover ' src={item} alt="" />
             </motion.div>
       )
     })}
