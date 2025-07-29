@@ -3,18 +3,11 @@ import HotDrinks from '../components/Card/HotDrinks'
 import ColdBeverages from '../components/menu/ColdBeverages'
 import Breakfast from '../components/menu/Breakfast'
 import Sandwiches from '../components/menu/Sandwiches'
-import { motion } from "motion/react"
+import Hero from '../components/menu/Hero'
 const Menu = () => {
   return (
    <>
-<div className='w-full h-120 px-20  bg-[#1b1108] object-none  flex justify-center items-center  overflow-hidden relative'>
-  <img className='w-full' src="/menuHero.jpg" alt="" />
-  <div className='absolute top-0 left-30  w-[40%] h-full flex justify-center items-start gap-3  flex-col  font-bold text-white '>
-    <p className='text-2xl'>Welcome</p>
-    <h3 className='text-4xl'>We serve the richest coffee in the city!</h3>
-  </div>
-  <div className=' absolute top-0 w-full h-full bg-black opacity-30'></div>
-</div>
+   <Hero/>
 
 
 
@@ -33,3 +26,7 @@ const Menu = () => {
 }
 
 export default Menu
+export const metadata = {
+  title: "Menu",
+  description: "Menu of The Roasted Garden",
+};

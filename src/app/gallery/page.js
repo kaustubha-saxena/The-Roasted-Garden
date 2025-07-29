@@ -17,3 +17,7 @@ const Menu = () => {
 }
 
 export default Menu
+export const metadata = {
+  title: "Gallery",
+  description: "Images of The Roasted Garden",
+};
