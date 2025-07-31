@@ -38,9 +38,10 @@ const ImageLoader = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.2 }}
               transition={{ duration: 0.5, ease: "easeOut" }}
+              key={index}
             >
 
-        <img key={index} className=' shadow-2xl hover:drop-shadow-2xl hover:scale-101 transition-shadow max-w-[100%] mb-3 rounded-xl object-cover ' src={item} alt="" />
+        <img  className=' shadow-2xl hover:drop-shadow-2xl hover:scale-101 transition-shadow max-w-[100%] mb-3 rounded-xl object-cover ' src={item} alt="Gallery Image" />
             </motion.div>
       )
     })}
