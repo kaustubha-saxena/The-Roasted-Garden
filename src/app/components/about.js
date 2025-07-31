@@ -16,13 +16,7 @@ const About = () => {
       <div className='w-full h-fit py-10 bg-[#ebd3ac]'>
 
       <div className='px-20  bg-[#ebd3ac] py-10 flex jsucetify-centre items-center '>
-       <motion.div
-             className="w-[60%]  "
-             initial={{ opacity: 0, x: "-200px" }}
-             whileInView={{ opacity: 1, x: 0 }}
-             viewport={{ once: true, amount: 0.2 }}
-             transition={{ duration: 0.8,  }}
-           >
+     
 
        
         <div className='flex flex-col justify-center items-start gap-5 w-full'>
@@ -30,21 +24,13 @@ const About = () => {
           <p className='text-lg leading-relaxed '>Amelia is more than the heart behind The Roasted Garden—she’s the spark that keeps it alive. A lifelong lover of coffee and community, she turned her passion into purpose. With a background in sustainable agriculture and hospitality, Amelia brings a unique blend of eco-conscious values and customer-first thinking. Her mission? To make coffee more personal, more mindful, and more magical.
           </p>
         </div>
-          </motion.div>
-
-           <motion.div
-             className="w-[40%]  "
-             initial={{ opacity: 0, x: "200px" }}
-             whileInView={{ opacity: 1, x: 0 }}
-             viewport={{ once: true, amount: 0.2 }}
-             transition={{ duration: 0.8,  }}
-           >
+      
 
         <div className='w-full flex justify-center items-center'>
 
         <img className='w-[80%] rounded-xl' src="/about/founder.jpg" alt="" />
         </div>
-          </motion.div>
+        
       </div>
 
           
