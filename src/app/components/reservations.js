@@ -57,13 +57,7 @@ const Reservation = () => {
 
 
                     <form action="" className='flex flex-wrap  gap-3 px-30 justify-center'>
-                        {/* <div className='flex flex-col justify-start w-[80%] '>
-                            <label className='font-semibold' htmlFor="first_name">Name</label>
-                            <div className='flex w-full gap-5'>
-                                <input className='  py-2 text-slate-800 w-full border-3 font-medium  border-[#b4804d] px-2' placeholder='First Name' required type="text" value={form.first_name} onChange={handleChange} id='first_name' />
-                                <input className='  py-2 text-slate-800 w-full border-3 font-medium border-[#b4804d] px-2' placeholder='Last Name' type="text" id='first_name' value={form.last_name} onChange={handleChange} />
-                            </div>
-                        </div> */}
+                       
                         <div className='flex flex-col justify-start  w-[40%] '>
                             <label className='font-semibold' htmlFor="phone">First Name</label>
                             <input className='  py-2 text-slate-800 w-full border-3 font-medium min-w-[50%] border-[#b4804d] px-2' placeholder='Phone Number' required type="text" id="first_name" value={form.first_name} onChange={handleChange} />
@@ -97,39 +91,10 @@ const Reservation = () => {
                             <input className='  py-2 text-slate-800 w-full border-3 font-medium border-[#b4804d] px-2' placeholder='Let us know your preferences (e.g. seating, allergies, etc.)' type="text" id='req' value={form.req} onChange={handleChange} />
                         </div>
                         <div className='w-full flex justify-center my-10'>
-                            <input type="submit" className=' py-3 px-50 font-bold text-center border-0 hover:bg-[#c29064] bg-[#d2aa89] ' />
+                            <input type="submit" value={"Reserve Now"} className=' py-3 px-50 font-bold text-center border-0 hover:bg-[#c29064] bg-[#d2aa89] ' />
                         </div>
                     </form>
-                    {/* <div className='px-20  bg-[#ebd3ac] py-10 flex jsucetify-centre items-center '>
-
-                        <motion.div
-                            className="w-[40%]  "
-                            initial={{ opacity: 0, x: "-200px" }}
-                            whileInView={{ opacity: 1, x: 0 }}
-                            viewport={{ once: true, amount: 0.2 }}
-                            transition={{ duration: 0.8, }}
-                        >
-                            <div className='w-full flex justify-start items-center'>
-                                <img className='w-[80%] rounded-xl' src="/about/ourSpace.jpg" alt="" />
-                            </div>
-                        </motion.div>
-
-                        <motion.div
-                            className="w-[60%]  "
-                            initial={{ opacity: 0, x: "200px" }}
-                            whileInView={{ opacity: 1, x: 0 }}
-                            viewport={{ once: true, amount: 0.2 }}
-                            transition={{ duration: 1, }}
-                        >
-
-                            <div className='flex flex-col justify-start items-start gap-5 w-full'>
-                                <h3 className='text-4xl font-bold '>Our Space</h3>
-                                <p className='text-lg leading-relaxed '>Imagine walking into a sunlit nook, filled with the aroma of fresh coffee and the calm of a hidden garden. That’s the vibe we’ve nurtured here. With warm lighting, cozy seating, and touches of greenery everywhere, The Roasted Garden is designed to help you slow down and savor the moment. Whether you’re working, reading, or catching up with friends, this is your space too.
-                                </p>
-                            </div>
-                        </motion.div>
-
-                    </div> */}
+                    
                 </div>
             </div>
         </>
