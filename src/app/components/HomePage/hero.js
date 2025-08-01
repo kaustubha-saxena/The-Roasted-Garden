@@ -45,10 +45,10 @@ const Hero = () => {
             >
 
           <div className='flex justify-center items-center gap-3 text-black mt-5 font-bold '>
-            <Link className=' ' href="/menu">
+            <Link className=' ' href="/reservations">
               <button className=' px-6 bg-[#efdfc5] py-2 rounded-lg  shadow-sm hover:cursor-pointer hover:bg-[#ceb998] shadow-[#ffcb78]'>Make Reservations</button>
             </Link>
-            <Link href={"/order"}>
+            <Link href={"/menu"}>
               <button className=' px-6 bg-[#efdfc5] py-2 rounded-lg hover:cursor-pointer hover:bg-[#ceb998] shadow-sm shadow-[#ffcb78]'>Order Online</button>
             </Link>
           </div>

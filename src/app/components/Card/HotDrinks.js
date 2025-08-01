@@ -2,7 +2,9 @@
 import React from 'react'
 import MenuCard from '../menu/MenuCard'
 import { motion } from "motion/react"
+import { menuItems } from '../../../../Menu'
 const HotDrinks = () => {
+  let count=0;
   return (
     <>
    <div className='  '>
@@ -21,11 +23,14 @@ const HotDrinks = () => {
         </div>
         <div className='flex justify-center items-center gap-6 py-3'>
 
-          <MenuCard />
-          <MenuCard />
-          <MenuCard />
-          <MenuCard />
-          <MenuCard />
+         {menuItems.map((item, index) => {
+  if (item.category === "Hot Drinks" && count < 5) {
+    count++;
+    return <MenuCard key={index} item={item} />;
+  }
+  return null;
+})} 
+    
           
 
         </div>

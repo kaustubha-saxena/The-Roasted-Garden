@@ -2,7 +2,9 @@
 import React from 'react'
 import MenuCard from '../menu/MenuCard'
 import { motion } from "motion/react"
+import { menuItems } from '../../../../Menu'
 const Breakfast = () => {
+  let count=0;
   return (
      <>
    <div className='  h-fit w-[100%] py-5 bg-[#ebd3ac]'>
@@ -21,12 +23,15 @@ const Breakfast = () => {
         </div>
         <div className='flex justify-center items-center gap-6  py-3'>
 
-          <MenuCard />
-          <MenuCard />
-          <MenuCard />
-          <MenuCard />
-          <MenuCard />
-          
+
+{menuItems.map((item, index) => {
+  if (item.category === "Breakfast" && count < 5) {
+    count++;
+    return <MenuCard key={index} item={item} />;
+  }
+  return null;
+})} 
+         
 
         </div>
     </motion.div>

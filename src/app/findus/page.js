@@ -33,6 +33,11 @@ const FindUs = () => {
                 <p>Email:info@theroastedgarden.com</p>
             </div>
             <div  className='py-4'>
+                <h6 className='text-lg font-bold'>Business Hours</h6>
+                <p>Monday to Sunday</p>
+                <p>7:00 AM - 10:00 PM</p>
+            </div>
+            <div  className='py-4'>
                 <h6 className='text-lg font-bold'>Follow Us</h6>
                <div className='flex justify-start items-center gap-5 py-2'>
               <Link href={"https://x.com/KaustubhaSaxena"}><img src="/icons/x.png" alt="" /></Link>

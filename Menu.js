@@ -1,46 +1,198 @@
-export const menuItmes=[
-    {
-name: "Expresso",
-description:"Strong, concentrated coffee",
-image:"",
-price:"",
-category:"Hot Drinks"
-},
-    {
-name: "Cappuccino",
-description:"Espresso with steamed milk and foam",
-image:"",
-price:"",
-category:"Hot Drinks"
-},
-    {
-name: "Latte",
-description:"Espresso with steamed milk",
-image:"",
-price:"",
-category:"Hot Drinks"
-},
-    {
-name: "Americano",
-description:"Espresso diluted with hot water",
-image:"",
-price:"",
-category:"Hot Drinks"
-},
-    {
-name: "Mocha",
-description:"Espresso with chocolate and steamed milk",
-image:"",
-price:"",
-category:"Hot Drinks"
-},
-    {
-name: "Macchiato",
-description:"Espresso with a dollop of foam",
-image:"",
-price:"",
-category:"Hot Drinks"
-},
-
-
-]
+export const menuItems = [
+  {
+    name: "Signature Lattes",
+    description: "Experience our unique latte art and flavor combinations.",
+    image: "/OurSpeciality/signaturelattes.png",
+    price: "₹180",
+    category: "OurSpeciality"
+  },
+  {
+    name: "Artisan Pastries",
+    description: "Indulge in our daily selection of freshly baked croissants, muffins, and more.",
+    image: "/OurSpeciality/artisanpastries.png",
+    price: "₹150",
+    category: "OurSpeciality"
+  },
+   {
+    name: "Grilled Cheese Sandwich",
+    description: "A classic favorite with perfectly melted cheese between golden grilled bread.",
+    image: "/OurSpeciality/grilledcheese.png",
+    price: "₹190",
+    category: "OurSpeciality"
+  },
+   {
+    name: "Chicken Avocado Sandwich",
+    description: "Tender grilled chicken with creamy avocado and crisp lettuce on sourdough bread.",
+    image: "/OurSpeciality/chickenavocado.png",
+    price: "₹250",
+    category: "OurSpeciality"
+  }
+  ,{
+    name: "Espresso",
+    description: "Strong, concentrated coffee",
+    image: "/HotDrinks/espresso.png",
+    price: "₹120",
+    category: "Hot Drinks",
+  },
+  {
+    name: "Cappuccino",
+    description: "Espresso with steamed milk and foam",
+    image: "/HotDrinks/cappuccino.png",
+    price: "₹160",
+    category: "Hot Drinks",
+  },
+  {
+    name: "Latte",
+    description: "Espresso with steamed milk",
+    image: "/HotDrinks/latte.png",
+    price: "₹170",
+    category: "Hot Drinks",
+  },
+  {
+    name: "Americano",
+    description: "Espresso diluted with water",
+    image: "/HotDrinks/americano.png",
+    price: "₹150",
+    category: "Hot Drinks",
+  },
+  {
+    name: "Mocha",
+    description: "Espresso with chocolate and steamed milk",
+    image: "/HotDrinks/mocha.png",
+    price: "₹180",
+    category: "Hot Drinks",
+  },
+  {
+    name: "Macchiato",
+    description: "Espresso with a dollop of foam",
+    image: "/HotDrinks/macchiato.png",
+    price: "₹140",
+    category: "Hot Drinks",
+  },
+  {
+    name: "Iced Coffee",
+    description: "Coffee served over ice",
+    image: "/ColdBeverages/icedcoffee.png",
+    price: "₹160",
+    category: "Cold Beverages",
+  },
+  {
+    name: "Cold Brew",
+    description: "Coffee brewed cold for a smooth taste",
+    image: "/ColdBeverages/coldbrew.png",
+    price: "₹180",
+    category: "Cold Beverages",
+  },
+  {
+    name: "Iced Latte",
+    description: "Espresso with cold milk and ice",
+    image: "/ColdBeverages/icedlatte.png",
+    price: "₹170",
+    category: "Cold Beverages",
+  },
+  {
+    name: "Iced Mocha",
+    description: "Iced mocha with espresso, chocolate, and milk",
+    image: "/ColdBeverages/icedmocha.png",
+    price: "₹190",
+    category: "Cold Beverages",
+  },
+  {
+    name: "Smoothie",
+    description: "Blended fruit and yogurt drink",
+    image: "/ColdBeverages/smoothie.png",
+    price: "₹200",
+    category: "Cold Beverages",
+  },
+  {
+    name: "Juice",
+    description: "Freshly squeezed fruit juice",
+    image: "/ColdBeverages/juice.png",
+    price: "₹130",
+    category: "Cold Beverages",
+  },
+  {
+    name: "Avocado Toast",
+    description: "Toasted bread topped with avocado and toppings",
+    image: "/Breakfast/avocadotoast.png",
+    price: "₹220",
+    category: "Breakfast",
+  },
+  {
+    name: "Breakfast Burrito",
+    description: "Tortilla wrap filled with eggs and toppings",
+    image: "/Breakfast/breakfastburrito.png",
+    price: "₹240",
+    category: "Breakfast",
+  },
+  {
+    name: "Yogurt Parfait",
+    description: "Layers of yogurt, granola, and fruit",
+    image: "/Breakfast/yogurtparfait.png",
+    price: "₹180",
+    category: "Breakfast",
+  },
+  {
+    name: "Bagel with Cream Cheese",
+    description: "Bagel with cream cheese spread",
+    image: "/Breakfast/bagelcreamcheese.png",
+    price: "₹160",
+    category: "Breakfast",
+  },
+  {
+    name: "Muffin",
+    description: "Baked muffin with fruit or nuts",
+    image: "/Breakfast/muffin.png",
+    price: "₹100",
+    category: "Breakfast",
+  },
+  {
+    name: "Scone",
+    description: "Baked scone",
+    image: "/Breakfast/scone.png",
+    price: "₹120",
+    category: "Breakfast",
+  },
+  {
+    name: "Turkey & Swiss",
+    description: "Turkey and Swiss cheese sandwich",
+    image: "/Sandwiches/turkeyswiss.png",
+    price: "₹260",
+    category: "Sandwiches",
+  },
+  {
+    name: "Ham & Cheddar",
+    description: "Ham, cheddar, lettuce, and sandwich spread",
+    image: "/Sandwiches/hamcheddar.png",
+    price: "₹250",
+    category: "Sandwiches",
+  },
+  {
+    name: "Veggie Sandwich",
+    description: "Lettuce, tomato, cucumber, and hummus",
+    image: "/Sandwiches/veggiesandwich.png",
+    price: "₹200",
+    category: "Sandwiches",
+  },
+  {
+    name: "Grilled Cheese",
+    description: "Melted cheese in grilled bread",
+    image: "/Sandwiches/grilledcheese.png",
+    price: "₹190",
+    category: "Sandwiches",
+  },
+  {
+    name: "BLT",
+    description: "Bacon, lettuce, and tomato sandwich",
+    image: "/Sandwiches/blt.png",
+    price: "₹240",
+    category: "Sandwiches",
+  },
+  {
+    name: "Chicken Salad Sandwich",
+    description: "Chicken salad in fresh sandwich bread",
+    image: "/Sandwiches/chickensalad.png",
+    price: "₹250",
+    category: "Sandwiches",
+  }
+];
