@@ -53,10 +53,12 @@ const Reservation = () => {
                     <div className=' absolute top-0 w-full h-full bg-black opacity-30'></div>
                 </div>
 
-                <div className='w-full h-fit py-10 bg-[#ebd3ac] px-20 '>
+<div className='w-full px-20 py-10 bg-[#1b1108] '>
+
+                <div className='w-full h-fit py-10 bg-[#ebd3ac]  '>
 
 
-                    <form action="" className='flex flex-wrap  gap-3 px-30 justify-center'>
+                    <form action="" className='flex flex-wrap  gap-5 px-10 justify-center'>
                        
                         <div className='flex flex-col justify-start  w-[40%] '>
                             <label className='font-semibold' htmlFor="phone">First Name</label>
@@ -97,6 +99,7 @@ const Reservation = () => {
                     
                 </div>
             </div>
+</div>
         </>
     )
 }
