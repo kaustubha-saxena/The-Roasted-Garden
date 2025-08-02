@@ -67,7 +67,7 @@ const Hero = () => {
   animate={{ opacity: 1,  x: "0px" }}
   transition={{ ease: "easeOut", duration: 1, delay: 0.5 }}
 >
-          <p className= ' lg:text-8xl 2xl:text-9xl 2xl:bg-red-400 xl:bg-green-500 lg:bg-blue-500 font-bold text-shadow-[#4e3e28] text-shadow-lg'>Americano</p>
+          <p className= ' lg:text-8xl 2xl:text-9xl  font-bold text-shadow-[#4e3e28] text-shadow-lg'>Americano</p>
           <p className= ' lg:text-8xl xl:text-[110px] 2xl:text-[150px] font-bold text-shadow-[#4e3e28] text-shadow-lg '>Espresso</p>
           <p className= ' lg:text-8xl xl:text-[110px] 2xl:text-[150px] font-bold text-shadow-[#4e3e28] text-shadow-lg'>Cappuccino</p>
           <p className= ' lg:text-8xl xl:text-[110px] 2xl:text-[150px] font-bold text-shadow-[#4e3e28] text-shadow-lg'>Macchiato</p>
