@@ -10,8 +10,8 @@ const Hero = () => {
      <div className='relative w-full h-fit'>
 
 
-      <div className='relative bg-[#1b1108] w-full 2xl:h-[800px] lg:h-[500px] xl:h-[600px] text-white overflow-hidden '>
-        <div className='absolute flex flex-col justify-center items-center w-[50%] h-[100%] gap-5  px-20  '>
+      <div className='relative bg-[#1b1108] w-full 2xl:h-[750px] lg:h-[500px] xl:h-[600px] text-white overflow-hidden '>
+        <div className='absolute flex flex-col justify-center items-center w-[50%] h-[100%] gap-5  px-20'>
 
           <motion.div
             initial={{ opacity: 0, y: "0px" }}

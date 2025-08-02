@@ -9,7 +9,7 @@ const Footer = () => {
       <div className='w-full h-fit bg-[#86562c]  relative text-white bottom-0'>
         <div className='flex justify-start items-start px-20 py-10'>
           <div className='w-[50%] flex flex-col justify-start gap-5'>
-            <h3 className='text-3xl font-bold'>The Roasted Garden</h3>
+            <h3 className='2xl:text-3xl xl:text-2xl font-bold'>The Roasted Garden</h3>
             <p className='text-sm'>Brewed with love, one cup at a time.</p>
             <div className='flex justify-start items-center gap-5'>
               <Link href={"https://x.com/KaustubhaSaxena"}><img src="/icons/x.png" alt="" /></Link>
