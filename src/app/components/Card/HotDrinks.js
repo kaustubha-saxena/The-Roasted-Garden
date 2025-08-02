@@ -9,19 +9,11 @@ const HotDrinks = () => {
     <>
    <div className='  '>
 
-        <motion.div
-      className="  "
-      initial={{ opacity: 0, y: 50 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.2 }}
-      transition={{ duration: 0.8, ease: "easeOut" }}
-    >
-
         <div className=' w-full flex justify-center items-center text-center    '>
 
-          <h3 className='text-2xl font-bold text-[#4e3e28]'>HOT DRINKS</h3>
+          <h3 className='2xl:text-2xl xl:text-xl lg:text-lg font-bold text-[#4e3e28]'>HOT DRINKS</h3>
         </div>
-        <div className='flex justify-center items-center gap-6 py-3'>
+        <div className='flex justify-center items-center 2xl:gap-6  lg:gap-3 py-3'>
 
          {menuItems.map((item, index) => {
   if (item.category === "Hot Drinks" && count < 5) {
@@ -34,7 +26,7 @@ const HotDrinks = () => {
           
 
         </div>
-    </motion.div>
+ 
       </div>
     </>
   )

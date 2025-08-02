@@ -19,9 +19,9 @@ const Breakfast = () => {
 
         <div className=' w-full flex justify-center items-center text-center   '>
 
-          <h3 className='text-2xl font-bold text-[#4e3e28]'>BREAKFAST</h3>
+          <h3 className='2xl:text-2xl xl:text-xl lg:text-lg font-bold text-[#4e3e28]'>BREAKFAST</h3>
         </div>
-        <div className='flex justify-center items-center gap-6  py-3'>
+        <div className='flex justify-center items-center 2xl:gap-6  lg:gap-3  py-3'>
 
 
 {menuItems.map((item, index) => {

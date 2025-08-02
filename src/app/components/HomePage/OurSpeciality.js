@@ -6,7 +6,7 @@ import { menuItems } from '../../../../Menu'
 const OurSpeciality = () => {
   return (
     <>
-      <div className='bg-[#efdfc5] h-fit w-[100%] px-30'>
+      <div className='bg-[#efdfc5] h-fit w-full 2xl:px-30 xl:px-20 lg:px-15 flex flex-col justify-start'>
 
         <motion.div
           className="  "
@@ -16,11 +16,11 @@ const OurSpeciality = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
 
-          <div className='flex justify-start items-center px-10 py-5'>
+          <span className='flex justify-start items-center px-10 pt-8 '>
 
-            <h3 className='text-3xl font-bold text-[#4e3e28]'>Our Specialties</h3>
-          </div>
-          <div className='flex justify-center items-center gap-3  py-5'>
+            <h3 className='2xl:text-3xl xl:text-3xl lg:text-2xl  font-bold text-[#4e3e28]'>Our Specialties</h3>
+          </span>
+          <div className='flex justify-center items-center gap-3  py-2'>
 
             {menuItems.map((item, index) => {
               if (item.category === "OurSpeciality" ) {

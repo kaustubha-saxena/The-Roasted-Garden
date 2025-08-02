@@ -1,5 +1,4 @@
 import Hero from "./components/HomePage/hero";
-import Navbar from "./components/Navbar";
 import OurSpeciality from "./components/HomePage/OurSpeciality";
 import Reviews from "./components/Reviews";
 import About from "./components/HomePage/about";
